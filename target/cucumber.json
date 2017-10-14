@@ -3,158 +3,100 @@
     "line": 1,
     "elements": [
       {
-        "line": 3,
-        "name": "Login to the URL with Invalid Credentials and check the Error message",
+        "before": [
+          {
+            "result": {
+              "duration": 5696235760,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Login with correct username and password",
         "description": "",
-        "id": "signin;login-to-the-url-with-invalid-credentials-and-check-the-error-message",
+        "id": "loginfeature;login-with-correct-username-and-password",
+        "after": [
+          {
+            "result": {
+              "duration": 730486205,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.tearDown()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 374235252,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "the User opens the URL",
-            "match": {
-              "location": "SignIn.the_User_opens_the_URL()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 6608588,
+              "duration": 10781379066,
               "status": "passed"
             },
             "line": 6,
-            "name": "enter the \"Username\" and \"Password\"",
+            "name": "I navigate to the login page",
             "match": {
-              "arguments": [
-                {
-                  "val": "Username",
-                  "offset": 11
-                },
-                {
-                  "val": "Password",
-                  "offset": 26
-                }
-              ],
-              "location": "SignIn.enter_the_and(String,String)"
+              "location": "LoginFeature.i_navigate_to_the_login_page()"
             },
-            "keyword": "And "
+            "keyword": "Given "
           },
           {
             "result": {
-              "duration": 75130,
+              "duration": 952542200,
               "status": "passed"
             },
             "line": 7,
-            "name": "click on signIn",
+            "name": "I enter the username as \"vineeth.varada@fissionlabs.com\" and password as \"Password@18\"",
             "match": {
-              "location": "SignIn.click_on_signIn()"
+              "arguments": [
+                {
+                  "val": "vineeth.varada@fissionlabs.com",
+                  "offset": 25
+                },
+                {
+                  "val": "Password@18",
+                  "offset": 74
+                }
+              ],
+              "location": "LoginFeature.i_enter_the_username_as_and_password_as(String,String)"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 195420,
+              "duration": 288384671,
               "status": "passed"
             },
             "line": 8,
-            "name": "It should show the error message as \"The password you entered isn\u0027t correct\"",
+            "name": "I click login button",
             "match": {
-              "arguments": [
-                {
-                  "val": "The password you entered isn\u0027t correct",
-                  "offset": 37
-                }
-              ],
-              "location": "SignIn.it_should_show_the_error_message_as(String)"
-            },
-            "keyword": "Then "
-          }
-        ]
-      },
-      {
-        "line": 10,
-        "name": "Login to the URL with Valid Credentials and check the successful Message",
-        "description": "",
-        "id": "signin;login-to-the-url-with-valid-credentials-and-check-the-successful-message",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 469256,
-              "status": "passed"
-            },
-            "line": 11,
-            "name": "the User opens the URL",
-            "match": {
-              "location": "SignIn.the_User_opens_the_URL()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 890889,
-              "status": "passed"
-            },
-            "line": 12,
-            "name": "enter the \"Username\" and \"Password\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "Username",
-                  "offset": 11
-                },
-                {
-                  "val": "Password",
-                  "offset": 26
-                }
-              ],
-              "location": "SignIn.enter_the_and(String,String)"
+              "location": "LoginFeature.i_click_login_button()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 85805,
+              "duration": 34666780936,
               "status": "passed"
             },
-            "line": 13,
-            "name": "click on signIn",
+            "line": 9,
+            "name": "I should see the homepage",
             "match": {
-              "location": "SignIn.click_on_signIn()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 172840,
-              "status": "passed"
-            },
-            "line": 14,
-            "name": "It should navigate to welcome screen with successful login message as \"Successfully logged in\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "Successfully logged in",
-                  "offset": 71
-                }
-              ],
-              "location": "SignIn.it_should_navigate_to_welcome_screen_with_successful_login_message_as(String)"
+              "location": "LoginFeature.i_should_see_the_homepage()"
             },
             "keyword": "Then "
           }
         ]
       }
     ],
-    "name": "SignIn",
-    "description": "",
-    "id": "signin",
+    "name": "LoginFeature",
+    "description": "This feature deals with the login functionality of the application",
+    "id": "loginfeature",
     "keyword": "Feature",
-    "uri": "features/SignIn.feature"
+    "uri": "features/Login.feature"
   }
 ]

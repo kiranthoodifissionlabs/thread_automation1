@@ -1,6 +1,6 @@
 package com.thread.automation.pages;
 
-import org.openqa.selenium.WebDriver;
+import com.thread.automation.framework.BaseClass;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -8,21 +8,45 @@ import org.openqa.selenium.support.PageFactory;
 /**
  * Created by THOODI on 1/24/2017.
  */
-public class LandingPage {
+public class LandingPage extends BaseClass{
 
-    private WebDriver driver;
-    public LandingPage(WebDriver driver) {
-        this.driver = driver;
-        PageFactory.initElements(driver,this);
+    private BaseClass baseClass;
+
+  public LandingPage(BaseClass baseClass) {
+      this.baseClass = baseClass;
+      PageFactory.initElements(baseClass.driver,this);
     }
 
-    @FindBy(linkText = "Login/Register")
-    private WebElement loginLink;
+
+    @FindBy(xpath = "//span[contains(text(), \"Welcome\")]")
+    private WebElement landingPageWelcome;
+
+    @FindBy(xpath = ".//span[contains(text(),'+')]")
+    private WebElement createStudyButton;
+
+    @FindBy(xpath = ".//li[contains(text(),'My Profile')]")
+    private WebElement myProfileButton;
+
+    @FindBy(xpath = ".//li[contains(text(),'Log Out')]")
+    private WebElement logOut;
 
 
-
-    public void clickonloginLink(){
-        loginLink.click();
+    public String getlandingPageWelcome(){
+        return landingPageWelcome.getText();
     }
+
+    public void logOutFromThreadPortal()
+    {
+        landingPageWelcome.click();
+        logOut.click();
+    }
+
+    public void startCreatingStudy()
+    {
+        createStudyButton.click();
+    }
+
+
+
 
 }

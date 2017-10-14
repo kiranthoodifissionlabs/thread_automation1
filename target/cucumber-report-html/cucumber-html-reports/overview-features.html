@@ -50,7 +50,7 @@ $(document).ready(function() {
     var chartData = {
         datasets: [{
             data: [
-                8,
+                4,
                 0,
                 0,
                 0,
@@ -93,7 +93,7 @@ $(document).ready(function() {
                         var allData = data.datasets[tooltipItem.datasetIndex].data;
                         var tooltipLabel = data.labels[tooltipItem.index];
                         var tooltipData = allData[tooltipItem.index];
-                        var tooltipPercentage = Math.round(10000 * tooltipData / 8) / 100;
+                        var tooltipPercentage = Math.round(10000 * tooltipData / 4) / 100;
                         return tooltipLabel + ": " + tooltipData + " (" + tooltipPercentage + "%)";
                     }
                 }
@@ -106,7 +106,7 @@ $(document).ready(function() {
     var chartData = {
         datasets: [{
             data: [
-                2,
+                1,
                 0
             ],
             backgroundColor: [
@@ -143,7 +143,7 @@ $(document).ready(function() {
                         var allData = data.datasets[tooltipItem.datasetIndex].data;
                         var tooltipLabel = data.labels[tooltipItem.index];
                         var tooltipData = allData[tooltipItem.index];
-                        var tooltipPercentage = Math.round(10000 * tooltipData / 2) / 100;
+                        var tooltipPercentage = Math.round(10000 * tooltipData / 1) / 100;
                         return tooltipLabel + ": " + tooltipData + " (" + tooltipPercentage + "%)";
                     }
                 }
@@ -233,7 +233,7 @@ $(document).ready(function() {
     <tr class="info">
       <td>Thread_Cucumber_Automation</td>
               <td>1</td>
-            <td>18 Sep 2017, 20:07</td>
+            <td>14 Oct 2017, 13:45</td>
     </tr>
   </tbody>
 </table>
@@ -328,20 +328,20 @@ $(document).ready(function() {
 
   <tbody>
           <tr>
-        <td class="tagname"><a href="report-feature_features-SignIn-feature.html">SignIn</a></td>
+        <td class="tagname"><a href="report-feature_features-Login-feature.html">LoginFeature</a></td>
         
-        <td      class="passed"    >8</td>
+        <td      class="passed"    >4</td>
         <td >0</td>
         <td >0</td>
         <td >0</td>
         <td >0</td>
-        <td class="total">8</td>
+        <td class="total">4</td>
 
-        <td  class="passed"    >2</td>
+        <td  class="passed"    >1</td>
         <td >0</td>
-        <td class="total">2</td>
+        <td class="total">1</td>
 
-        <td class="duration" data-value="382733180">382ms</td>
+        <td class="duration" data-value="11562982292">11s 562ms</td>
         <td class="passed">Passed</td>
       </tr>
       </tbody>
@@ -349,18 +349,18 @@ $(document).ready(function() {
   <tfoot class="total">
     <tr>
       <td>1</td>
-            <td>8</td>
+            <td>4</td>
       <td>0</td>
       <td>0</td>
       <td>0</td>
       <td>0</td>
-      <td>8</td>
+      <td>4</td>
 
-      <td>2</td>
+      <td>1</td>
       <td>0</td>
-      <td>2</td>
+      <td>1</td>
 
-      <td class="duration">382ms</td>
+      <td class="duration">11s 562ms</td>
       <td></td>
     </tr>
     <tr>

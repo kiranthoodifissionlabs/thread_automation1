@@ -1,153 +1,83 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("features/SignIn.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("features/Login.feature");
 formatter.feature({
   "line": 1,
-  "name": "SignIn",
-  "description": "",
-  "id": "signin",
+  "name": "LoginFeature",
+  "description": "This feature deals with the login functionality of the application",
+  "id": "loginfeature",
   "keyword": "Feature"
 });
+formatter.before({
+  "duration": 5696235760,
+  "status": "passed"
+});
 formatter.scenario({
-  "line": 3,
-  "name": "Login to the URL with Invalid Credentials and check the Error message",
+  "line": 4,
+  "name": "Login with correct username and password",
   "description": "",
-  "id": "signin;login-to-the-url-with-invalid-credentials-and-check-the-error-message",
+  "id": "loginfeature;login-with-correct-username-and-password",
   "type": "scenario",
   "keyword": "Scenario"
 });
 formatter.step({
-  "line": 5,
-  "name": "the User opens the URL",
-  "keyword": "When "
-});
-formatter.step({
   "line": 6,
-  "name": "enter the \"Username\" and \"Password\"",
-  "keyword": "And "
+  "name": "I navigate to the login page",
+  "keyword": "Given "
 });
 formatter.step({
   "line": 7,
-  "name": "click on signIn",
+  "name": "I enter the username as \"vineeth.varada@fissionlabs.com\" and password as \"Password@18\"",
   "keyword": "And "
 });
 formatter.step({
   "line": 8,
-  "name": "It should show the error message as \"The password you entered isn\u0027t correct\"",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "SignIn.the_User_opens_the_URL()"
-});
-formatter.result({
-  "duration": 374235252,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "Username",
-      "offset": 11
-    },
-    {
-      "val": "Password",
-      "offset": 26
-    }
-  ],
-  "location": "SignIn.enter_the_and(String,String)"
-});
-formatter.result({
-  "duration": 6608588,
-  "status": "passed"
-});
-formatter.match({
-  "location": "SignIn.click_on_signIn()"
-});
-formatter.result({
-  "duration": 75130,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "The password you entered isn\u0027t correct",
-      "offset": 37
-    }
-  ],
-  "location": "SignIn.it_should_show_the_error_message_as(String)"
-});
-formatter.result({
-  "duration": 195420,
-  "status": "passed"
-});
-formatter.scenario({
-  "line": 10,
-  "name": "Login to the URL with Valid Credentials and check the successful Message",
-  "description": "",
-  "id": "signin;login-to-the-url-with-valid-credentials-and-check-the-successful-message",
-  "type": "scenario",
-  "keyword": "Scenario"
-});
-formatter.step({
-  "line": 11,
-  "name": "the User opens the URL",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 12,
-  "name": "enter the \"Username\" and \"Password\"",
+  "name": "I click login button",
   "keyword": "And "
 });
 formatter.step({
-  "line": 13,
-  "name": "click on signIn",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 14,
-  "name": "It should navigate to welcome screen with successful login message as \"Successfully logged in\"",
+  "line": 9,
+  "name": "I should see the homepage",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "SignIn.the_User_opens_the_URL()"
+  "location": "LoginFeature.i_navigate_to_the_login_page()"
 });
 formatter.result({
-  "duration": 469256,
+  "duration": 10781379066,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "Username",
-      "offset": 11
+      "val": "vineeth.varada@fissionlabs.com",
+      "offset": 25
     },
     {
-      "val": "Password",
-      "offset": 26
+      "val": "Password@18",
+      "offset": 74
     }
   ],
-  "location": "SignIn.enter_the_and(String,String)"
+  "location": "LoginFeature.i_enter_the_username_as_and_password_as(String,String)"
 });
 formatter.result({
-  "duration": 890889,
+  "duration": 952542200,
   "status": "passed"
 });
 formatter.match({
-  "location": "SignIn.click_on_signIn()"
+  "location": "LoginFeature.i_click_login_button()"
 });
 formatter.result({
-  "duration": 85805,
+  "duration": 288384671,
   "status": "passed"
 });
 formatter.match({
-  "arguments": [
-    {
-      "val": "Successfully logged in",
-      "offset": 71
-    }
-  ],
-  "location": "SignIn.it_should_navigate_to_welcome_screen_with_successful_login_message_as(String)"
+  "location": "LoginFeature.i_should_see_the_homepage()"
 });
 formatter.result({
-  "duration": 172840,
+  "duration": 34666780936,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 730486205,
   "status": "passed"
 });
 });

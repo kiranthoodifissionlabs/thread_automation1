@@ -1,21 +1,17 @@
 package com.thread.automation.pages;
 
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.PageFactory;
 
 /**
  * Created by THOODI on 1/25/2017.
  */
-public class HomePage {
+public class HomePage{
 
-    private WebDriver driver;
-
-    public HomePage(WebDriver driver) {
-        this.driver=driver;
+   /* public HomePage(WebDriver driver) {
+        super(driver);
         PageFactory.initElements(this.driver,this);
-    }
+    }*/
 
     @FindBy(xpath = "(//a[text()=\"Submit Appeal\"])[1]")
     private WebElement submitAppeal;

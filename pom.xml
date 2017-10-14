@@ -18,14 +18,15 @@
         <selenium.version>3.4.0</selenium.version>
         <autoit.version>0.1.11</autoit.version>
         <surefire.version>2.20</surefire.version>
-        <cucumber.version>1.2.5</cucumber.version>
+        <cucumber.version>1.2.4</cucumber.version>
         <maven.compiler.version>3.7.0</maven.compiler.version>
-        <logging.version>1.7.25</logging.version>
+        <!--<logging.version>1.7.0</logging.version>-->
         <cucumber_reporting>3.5.0</cucumber_reporting>
     </properties>
 
 <dependencies>
-    <!-- https://mvnrepository.com/artifact/info.cukes/cucumber-java -->
+    <!-- https://mvnrepository.com/artifact/info.
+    cukes/cucumber-java -->
     <dependency>
         <groupId>info.cukes</groupId>
         <artifactId>cucumber-java</artifactId>
@@ -56,11 +57,11 @@
         <version>${selenium.version}</version>
     </dependency>
     <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-firefox-driver -->
-    <dependency>
+    <!--<dependency>
         <groupId>org.seleniumhq.selenium</groupId>
         <artifactId>selenium-firefox-driver</artifactId>
         <version>${selenium.version}</version>
-    </dependency>
+    </dependency>-->
     <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-api -->
     <dependency>
         <groupId>org.seleniumhq.selenium</groupId>
@@ -92,11 +93,11 @@
         <version>${surefire.version}</version>
     </dependency>
     <!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-api -->
-    <dependency>
+<!--    <dependency>
         <groupId>org.slf4j</groupId>
         <artifactId>slf4j-api</artifactId>
         <version>${logging.version}</version>
-    </dependency>
+    </dependency>-->
     <dependency>
         <groupId>org.apache.poi</groupId>
         <artifactId>poi-ooxml</artifactId>
