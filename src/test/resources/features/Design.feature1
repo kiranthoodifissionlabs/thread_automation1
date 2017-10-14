@@ -1,4 +1,6 @@
-Feature: Design Phase
+Feature: Design Phase Feature
+
+  It is a design phase first step.
 
   Scenario: On clicking the Begin button, it should navigate to "Who is the sponsor for this study?" screen
     When the user clicks on the Begin button
