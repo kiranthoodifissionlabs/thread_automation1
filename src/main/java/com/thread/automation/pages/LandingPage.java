@@ -1,6 +1,6 @@
 package com.thread.automation.pages;
 
-import com.thread.automation.framework.BaseClass;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -8,13 +8,10 @@ import org.openqa.selenium.support.PageFactory;
 /**
  * Created by THOODI on 1/24/2017.
  */
-public class LandingPage extends BaseClass{
+public class LandingPage{
 
-    private BaseClass baseClass;
-
-  public LandingPage(BaseClass baseClass) {
-      this.baseClass = baseClass;
-      PageFactory.initElements(baseClass.driver,this);
+  public LandingPage(WebDriver driver) {
+      PageFactory.initElements(driver,this);
     }
 
 

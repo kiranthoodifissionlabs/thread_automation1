@@ -1,6 +1,6 @@
 package com.thread.automation.pages;
 
-import com.thread.automation.framework.BaseClass;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -8,13 +8,10 @@ import org.openqa.selenium.support.PageFactory;
 /**
  * Created by THOODI on 1/25/2017.
  */
-public class LoginPage extends BaseClass {
+public class LoginPage  {
 
-  private BaseClass baseClass;
-
-     public LoginPage(BaseClass baseClass) {
-        this.baseClass = baseClass;
-        PageFactory.initElements(baseClass.driver,this);
+       public LoginPage(WebDriver driver) {
+        PageFactory.initElements(driver,this);
     }
 
     @FindBy(name = "email")
