@@ -46,7 +46,7 @@ public class LoginFeature extends BaseClass{
     }
 
     @Then("^I should see the homepage$")
-    public void i_should_see_the_homepage() {
+    public void i_should_see_the_homepage(){
        landingPage = new LandingPage(baseClass);
        String landingPageWelcome = landingPage.getlandingPageWelcome();
        Assert.assertTrue(landingPageWelcome.toLowerCase().contains("welcome"));
