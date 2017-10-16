@@ -47,7 +47,7 @@ public class LoginFeature extends BaseClass{
 
     @Then("^I should see the homepage$")
     public void i_should_see_the_homepage() throws InterruptedException {
-       landingPage = new LandingPage(baseClass);
+       landingPage = new LandingPage(baseClass.driver);
        Thread.sleep(3000);
        String landingPageWelcome = landingPage.getlandingPageWelcome();
        Assert.assertTrue(landingPageWelcome.toLowerCase().contains("welcome"));
@@ -56,7 +56,7 @@ public class LoginFeature extends BaseClass{
 
     @Then("^Select Logout from Welcome dropDown which is available on the top left corner of the screen$")
     public void select_Logout_from_Welcome_dropDown_which_is_available_on_the_top_left_corner_of_the_screen(){
-        landingPage = new LandingPage(baseClass);
+        landingPage = new LandingPage(baseClass.driver);
         landingPage.logOutFromThreadPortal();
     }
 
