@@ -7,7 +7,11 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 6213972584,
+  "duration": 709427,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 6073467939,
   "status": "passed"
 });
 formatter.scenario({
@@ -52,7 +56,7 @@ formatter.match({
   "location": "LoginFeature.i_navigate_to_the_login_page()"
 });
 formatter.result({
-  "duration": 14567015769,
+  "duration": 9984465282,
   "status": "passed"
 });
 formatter.match({
@@ -69,39 +73,43 @@ formatter.match({
   "location": "LoginFeature.i_enter_the_username_as_and_password_as(String,String)"
 });
 formatter.result({
-  "duration": 268839012,
+  "duration": 317209753,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginFeature.i_click_login_button()"
 });
 formatter.result({
-  "duration": 593620087,
+  "duration": 618210258,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginFeature.i_should_see_the_homepage()"
 });
 formatter.result({
-  "duration": 3073318499,
+  "duration": 3054201341,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginFeature.select_Logout_from_Welcome_dropDown_which_is_available_on_the_top_left_corner_of_the_screen()"
 });
 formatter.result({
-  "duration": 377390312,
+  "duration": 327683648,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginFeature.application_should_be_navigated_to_SignIn_screen()"
 });
 formatter.result({
-  "duration": 23073607,
+  "duration": 20231795,
   "status": "passed"
 });
 formatter.after({
-  "duration": 671019431,
+  "duration": 716827122,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 63635,
   "status": "passed"
 });
 });

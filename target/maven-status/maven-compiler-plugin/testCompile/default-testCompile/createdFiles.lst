@@ -1,0 +1,3 @@
+com\thread\automation\stepDefinitions\LoginFeature.class
+com\thread\automation\testRunner\TestRunner.class
+com\thread\automation\stepDefinitions\Hook.class
