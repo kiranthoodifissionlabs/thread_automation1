@@ -29,7 +29,7 @@ public class LoginFeature extends BaseClass{
     @Given("^I enter the username as \"([^\"]*)\" and password as \"([^\"]*)\"$")
     public void i_enter_the_username_as_and_password_as(String username, String password)  {
         //System.out.println(baseClass.hashCode());
-        loginPage = new LoginPage(baseClass);
+        loginPage = new LoginPage(baseClass.driver);
         if(loginPage.getForgotPasswordText().equalsIgnoreCase("Forgot Password?")) {
             loginPage.loginToThreadPortal(username, password);
         }
@@ -41,15 +41,28 @@ public class LoginFeature extends BaseClass{
 
     @And("^I click login button$")
     public void i_click_login_button(){
-        loginPage = new LoginPage(baseClass);
+        loginPage = new LoginPage(baseClass.driver);
         loginPage.clickOnSignIn();
     }
 
     @Then("^I should see the homepage$")
-    public void i_should_see_the_homepage(){
+    public void i_should_see_the_homepage() throws InterruptedException {
        landingPage = new LandingPage(baseClass);
+       Thread.sleep(3000);
        String landingPageWelcome = landingPage.getlandingPageWelcome();
        Assert.assertTrue(landingPageWelcome.toLowerCase().contains("welcome"));
+
+    }
+
+    @Then("^Select Logout from Welcome dropDown which is available on the top left corner of the screen$")
+    public void select_Logout_from_Welcome_dropDown_which_is_available_on_the_top_left_corner_of_the_screen(){
+        landingPage = new LandingPage(baseClass);
+        landingPage.logOutFromThreadPortal();
+    }
+
+    @Then("^Application should be navigated to SignIn screen$")
+    public void application_should_be_navigated_to_SignIn_screen() {
+        Assert.assertTrue(loginPage.getForgotPasswordText().equalsIgnoreCase("Forgot Password?"));
     }
 
 }
