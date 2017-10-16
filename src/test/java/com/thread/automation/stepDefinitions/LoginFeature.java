@@ -51,4 +51,5 @@ public class LoginFeature extends BaseClass{
        String landingPageWelcome = landingPage.getlandingPageWelcome();
        Assert.assertTrue(landingPageWelcome.toLowerCase().contains("welcome"));
     }
+
 }
