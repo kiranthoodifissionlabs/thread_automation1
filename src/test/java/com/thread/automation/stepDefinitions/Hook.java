@@ -14,7 +14,7 @@ public class Hook extends BaseClass{
         this.baseClass = baseClass;
     }
 
-    @Before
+    @Before(order=1)
     public void setUp(){
         System.out.println("Initializing the browser:" );
 
@@ -25,11 +25,21 @@ public class Hook extends BaseClass{
         baseClass.driver.manage().window().maximize();
     }
 
-    @After
+    @After(order=1)
     public void tearDown(){
        //baseClass.driver.close();
         baseClass.driver.quit();
     }
 
+
+   @Before(order=0)
+    public void beforeScenarioStart(){
+        System.out.println("-----------------Start of Scenario-----------------");
+    }
+
+    @After(order=0)
+    public void afterScenarioFinish(){
+        System.out.println("-----------------End of Scenario-----------------");
+    }
 }
 
