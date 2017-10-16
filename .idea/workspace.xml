@@ -2,16 +2,85 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0f0f773f-6637-44e4-852a-8838129aa7ce" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/thread/automation/pages/LandingPage.class" afterPath="$PROJECT_DIR$/target/classes/com/thread/automation/pages/LandingPage.class" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/com/thread/automation/stepDefinitions/LogOutFeature.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resources/features/LogOut.feature" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/cucumber-report-html/cucumber-html-reports/css/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/cucumber-report-html/cucumber-html-reports/css/cucumber.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/cucumber-report-html/cucumber-html-reports/css/font-awesome.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/cucumber-report-html/cucumber-html-reports/fonts/FontAwesome.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/cucumber-report-html/cucumber-html-reports/fonts/fontawesome-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/cucumber-report-html/cucumber-html-reports/fonts/fontawesome-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/cucumber-report-html/cucumber-html-reports/fonts/fontawesome-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/cucumber-report-html/cucumber-html-reports/fonts/fontawesome-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/cucumber-report-html/cucumber-html-reports/fonts/fontawesome-webfont.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/cucumber-report-html/cucumber-html-reports/fonts/glyphicons-halflings-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/cucumber-report-html/cucumber-html-reports/fonts/glyphicons-halflings-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/cucumber-report-html/cucumber-html-reports/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/cucumber-report-html/cucumber-html-reports/fonts/glyphicons-halflings-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/cucumber-report-html/cucumber-html-reports/fonts/glyphicons-halflings-regular.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/cucumber-report-html/cucumber-html-reports/images/favicon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/cucumber-report-html/cucumber-html-reports/js/Chart.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/cucumber-report-html/cucumber-html-reports/js/bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/cucumber-report-html/cucumber-html-reports/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/cucumber-report-html/cucumber-html-reports/js/jquery.tablesorter.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/cucumber-report-html/cucumber-html-reports/js/moment.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/cucumber-report-html/cucumber-html-reports/overview-failures.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/cucumber-report-html/cucumber-html-reports/overview-features.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/cucumber-report-html/cucumber-html-reports/overview-steps.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/cucumber-report-html/cucumber-html-reports/overview-tags.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/cucumber-report-html/cucumber-html-reports/report-feature_features-Login-feature.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/cucumber-report-html/cucumber-html-reports/report-feature_features-SignIna-feature.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/Surefire suite/Surefire test.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/Surefire suite/Surefire test.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/Surefire suite/testng-failed.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.thread.automation.testRunner.TestRunner.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/bullet_point.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/collapseall.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/com.thread.automation.testRunner.TestRunner.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/failed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/jquery-1.7.1.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.thread.automation.testRunner.TestRunner.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/navigator-bullet.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/old/Surefire suite/Surefire test.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/old/Surefire suite/classes.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/old/Surefire suite/groups.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/old/Surefire suite/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/old/Surefire suite/main.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/old/Surefire suite/methods-alphabetical.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/old/Surefire suite/methods-not-run.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/old/Surefire suite/methods.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/old/Surefire suite/reporter-output.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/old/Surefire suite/testng.xml.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/old/Surefire suite/toc.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/old/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/passed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/skipped.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/testng-failed.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/testng-reports.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/testng-reports.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/testng.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/thread_automation1-1.0-SNAPSHOT.jar" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/thread/automation/pages/LoginPage.class" afterPath="$PROJECT_DIR$/target/classes/com/thread/automation/pages/LoginPage.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/thread/automation/stepDefinitions/LoginFeature.class" afterPath="$PROJECT_DIR$/target/test-classes/com/thread/automation/stepDefinitions/LoginFeature.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/cucumber-html-report/report.js" afterPath="$PROJECT_DIR$/target/cucumber-html-report/report.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/cucumber.json" afterPath="$PROJECT_DIR$/target/cucumber.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/features/Login.feature" afterPath="$PROJECT_DIR$/target/test-classes/features/Login.feature" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test-output/Default Suite/testng-failed.xml" afterPath="$PROJECT_DIR$/test-output/Default Suite/testng-failed.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test-output/Default Suite/thread_automation1.html" afterPath="$PROJECT_DIR$/test-output/Default Suite/thread_automation1.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test-output/Default Suite/thread_automation1.xml" afterPath="$PROJECT_DIR$/test-output/Default Suite/thread_automation1.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test-output/emailable-report.html" afterPath="$PROJECT_DIR$/test-output/emailable-report.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test-output/index.html" afterPath="$PROJECT_DIR$/test-output/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-com.thread.automation.testRunner.TestRunner.xml" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-com.thread.automation.testRunner.TestRunner.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test-output/old/Default Suite/groups.html" afterPath="$PROJECT_DIR$/test-output/old/Default Suite/groups.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test-output/old/Default Suite/methods-alphabetical.html" afterPath="$PROJECT_DIR$/test-output/old/Default Suite/methods-alphabetical.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test-output/old/Default Suite/methods.html" afterPath="$PROJECT_DIR$/test-output/old/Default Suite/methods.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test-output/old/Default Suite/toc.html" afterPath="$PROJECT_DIR$/test-output/old/Default Suite/toc.html" />
@@ -29,100 +98,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Design.feature1" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/features/Design.feature1">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="26" lean-forward="false" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
-              <folding>
-                <marker date="1507975968174" expanded="true" signature="69:312" ph="Scenario: On clicking the Begin button, it should navigate to &quot;Who is the sponsor for this study?&quot; screen" />
-                <marker date="1507975968174" expanded="true" signature="316:652" ph="Scenario: &quot;Sponsor of the study&quot; Value should be selected from the DropDown box and click on Continue button" />
-                <marker date="1507975968174" expanded="true" signature="656:975" ph="Scenario: Studyname should be entered and Continue button should be clicked" />
-                <marker date="1507975968174" expanded="true" signature="979:1822" ph="Scenario: Click on either options available on &quot;Would you like a THREAD expert to guide you through this process?&quot; screen" />
-                <marker date="1507975968174" expanded="true" signature="1826:2177" ph="Scenario: Select a value from the dropdown in &quot;In which countries will this study be conducted?&quot; screen and click on Continue button." />
-                <marker date="1507975968174" expanded="true" signature="2181:2514" ph="Scenario: Enter the value inside textbox in &quot;What is the target participant population(s)?&quot; screen and click on Continue button" />
-                <marker date="1507975968174" expanded="true" signature="2518:2817" ph="Scenario: Select a value from the dropdown in &quot;What type of study is this?&quot; and click on Continue button" />
-                <marker date="1507975968174" expanded="true" signature="2821:3124" ph="Scenario: Enter a value in the text box available in &quot;What is the number of patients you expect to enroll?&quot; screen and click on Continue button" />
-                <marker date="1507975968174" expanded="true" signature="3128:3794" ph="Scenario: configure the valid date values in &quot;What are your key study dates?&quot; screen and click on Continue button" />
-                <marker date="1507975968174" expanded="true" signature="3798:4097" ph="Scenario: configuring respective values in &quot;Identify study milestones.&quot; screen and clicking on Continue button." />
-                <marker date="1507975968174" expanded="true" signature="4101:4468" ph="Scenario: Select all that apply in &quot;What channels do you need?&quot; screen and Click on Continue button" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LoginFeature.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/thread/automation/stepDefinitions/LoginFeature.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="32" column="8" lean-forward="false" selection-start-line="32" selection-start-column="8" selection-end-line="38" selection-end-column="9" />
-              <folding>
-                <element signature="e#488#489#0" expanded="true" />
-                <element signature="e#530#531#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LogOutFeature.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/thread/automation/stepDefinitions/LogOutFeature.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="348">
-              <caret line="47" column="5" lean-forward="true" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#402#403#0" expanded="true" />
-                <element signature="e#444#445#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BaseClass.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/thread/automation/framework/BaseClass.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="8" column="28" lean-forward="false" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LandingPage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/thread/automation/pages/LandingPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="37" column="16" lean-forward="false" selection-start-line="37" selection-start-column="16" selection-end-line="37" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LoginPage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/thread/automation/pages/LoginPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="32" column="39" lean-forward="false" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="39" />
-              <folding>
-                <element signature="e#852#853#0" expanded="true" />
-                <element signature="e#899#900#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Login.feature" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/features/Login.feature">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="93" lean-forward="false" selection-start-line="6" selection-start-column="93" selection-end-line="6" selection-end-column="93" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -142,7 +118,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/com/thread/automation/testRunner/TestRunner.java" />
         <option value="$PROJECT_DIR$/src/test/resources/features/SignIn.feature" />
         <option value="$PROJECT_DIR$/src/main/resources/inputs/Repository.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/thread/automation/framework/GlobalData.java" />
@@ -154,16 +129,18 @@
         <option value="$PROJECT_DIR$/src/main/java/com/thread/automation/framework/BaseUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/thread/automation/pages/HomePage.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/test/resources/features/Login.feature" />
         <option value="$PROJECT_DIR$/src/test/java/com/thread/automation/stepDefinitions/Hook.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/thread/automation/pages/LoginPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/thread/automation/framework/BaseClass.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/thread/automation/stepDefinitions/LoginFeature.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/thread/automation/pages/LandingPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/thread/automation/pages/Design/ChannelPage.java" />
         <option value="$PROJECT_DIR$/src/test/resources/features/LogOut.feature" />
         <option value="$PROJECT_DIR$/src/test/resources/features/Design.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/com/thread/automation/testRunner/TestRunner.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/thread/automation/pages/LoginPage.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/features/LogOut.feature1" />
         <option value="$PROJECT_DIR$/src/test/java/com/thread/automation/stepDefinitions/LogOutFeature.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/features/Login.feature" />
+        <option value="$PROJECT_DIR$/src/main/java/com/thread/automation/pages/LandingPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/thread/automation/stepDefinitions/LoginFeature.java" />
       </list>
     </option>
   </component>
@@ -214,9 +191,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="AndroidView" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -334,6 +310,7 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -583,8 +560,8 @@
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="TestNG.TestRunner" />
-        <item index="1" class="java.lang.String" itemvalue="Cucumber java.Feature: LogOut" />
-        <item index="2" class="java.lang.String" itemvalue="Cucumber java.Feature: Login" />
+        <item index="1" class="java.lang.String" itemvalue="Cucumber java.Feature: Login" />
+        <item index="2" class="java.lang.String" itemvalue="Cucumber java.Feature: LogOut" />
         <item index="3" class="java.lang.String" itemvalue="Cucumber java.Feature: SignIna" />
         <item index="4" class="java.lang.String" itemvalue="JUnit.All in thread_automation1" />
       </list>
@@ -655,38 +632,87 @@
       <option name="project" value="LOCAL" />
       <updated>1507976707679</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Logout feature java">
+      <created>1507976809530</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1507976809530</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Logout feature java">
+      <created>1508124474491</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1508124474491</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Logout feature java">
+      <created>1508124719573</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1508124719573</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Logout feature java">
+      <created>1508128666602</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1508128666602</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Login Feature">
+      <created>1508128707038</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1508128707038</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Login Feature">
+      <created>1508128813737</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1508128813737</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Login Feature">
+      <created>1508128835349</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1508128835349</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Feature__LogOut - 2017.10.14 at 15h 31m 39s.xml">
-      <configuration name="Feature: LogOut" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="Feature__Login - 2017.10.16 at 09h 38m 35s.xml">
+      <configuration name="Feature: Login" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="TestRunner - 2017.10.14 at 14h 00m 44s.xml">
+    <history-entry file="Feature__Login - 2017.10.16 at 09h 39m 51s.xml">
+      <configuration name="Feature: Login" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Feature__Login - 2017.10.16 at 09h 42m 16s.xml">
+      <configuration name="Feature: Login" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Feature__Login - 2017.10.16 at 09h 59m 26s.xml">
+      <configuration name="Feature: Login" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Feature__Login - 2017.10.16 at 10h 04m 09s.xml">
+      <configuration name="Feature: Login" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Feature__Login - 2017.10.16 at 10h 05m 21s.xml">
+      <configuration name="Feature: Login" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="TestRunner - 2017.10.16 at 09h 30m 25s.xml">
       <configuration name="TestRunner" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestRunner - 2017.10.14 at 14h 16m 18s.xml">
+    <history-entry file="TestRunner - 2017.10.16 at 09h 43m 28s.xml">
       <configuration name="TestRunner" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestRunner - 2017.10.14 at 14h 18m 12s.xml">
+    <history-entry file="TestRunner - 2017.10.16 at 09h 44m 15s.xml">
       <configuration name="TestRunner" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestRunner - 2017.10.14 at 14h 20m 23s.xml">
-      <configuration name="TestRunner" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestRunner - 2017.10.14 at 14h 21m 33s.xml">
-      <configuration name="TestRunner" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestRunner - 2017.10.14 at 14h 22m 50s.xml">
-      <configuration name="TestRunner" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestRunner - 2017.10.14 at 15h 51m 40s.xml">
-      <configuration name="TestRunner" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestRunner - 2017.10.14 at 15h 53m 12s.xml">
-      <configuration name="TestRunner" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestRunner - 2017.10.14 at 15h 54m 23s.xml">
+    <history-entry file="TestRunner - 2017.10.16 at 10h 07m 01s.xml">
       <configuration name="TestRunner" configurationId="TestNG" />
     </history-entry>
   </component>
@@ -701,7 +727,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14421669" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13880126" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3170347" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -711,7 +737,7 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23501578" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.340694" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -729,20 +755,13 @@
     <MESSAGE value="Design Feature" />
     <MESSAGE value="Logout feature" />
     <MESSAGE value="Logout feature java" />
-    <option name="LAST_COMMIT_MESSAGE" value="Logout feature java" />
+    <MESSAGE value="Login Feature" />
+    <option name="LAST_COMMIT_MESSAGE" value="Login Feature" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/thread/automation/stepDefinitions/LogOutFeature.java</url>
-          <line>51</line>
-          <properties />
-          <option name="timeStamp" value="37" />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="38" />
+      <option name="time" value="40" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -762,10 +781,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="18" column="24" lean-forward="true" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
-          <folding>
-            <element signature="e#488#489#0" expanded="true" />
-            <element signature="e#530#531#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -773,9 +789,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="13" column="31" lean-forward="false" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -784,10 +798,8 @@
         <state relative-caret-position="595">
           <caret line="39" column="32" lean-forward="false" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="32" />
           <folding>
-            <element signature="e#852#853#0" expanded="true" />
-            <element signature="e#899#900#0" expanded="true" />
-            <element signature="e#932#933#0" expanded="true" />
-            <element signature="e#960#961#0" expanded="true" />
+            <element signature="e#744#745#0" expanded="true" />
+            <element signature="e#791#792#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -805,9 +817,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -843,19 +853,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/thread/automation/testRunner/TestRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="6" column="16" lean-forward="false" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/io/FileInputStream.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="349">
           <caret line="228" column="43" lean-forward="false" selection-start-line="228" selection-start-column="43" selection-end-line="228" selection-end-column="43" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -863,7 +864,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="179">
           <caret line="271" column="22" lean-forward="false" selection-start-line="271" selection-start-column="22" selection-end-line="271" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -879,34 +879,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="294">
           <caret line="531" column="32" lean-forward="true" selection-start-line="531" selection-start-column="32" selection-end-line="531" selection-end-column="32" />
-          <folding>
-            <element signature="e#19356#19357#0" expanded="true" />
-            <element signature="e#19421#19422#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/info/cukes/cucumber-core/1.2.4/cucumber-core-1.2.4.jar!/cucumber/runtime/StepDefinitionMatch.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/info/cukes/cucumber-core/1.2.4/cucumber-core-1.2.4.jar!/cucumber/runtime/Runtime.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="334" column="0" lean-forward="false" selection-start-line="334" selection-start-column="0" selection-end-line="334" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/info/cukes/cucumber-core/1.2.4/cucumber-core-1.2.4.jar!/cucumber/runtime/model/StepContainer.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -914,7 +886,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="141">
           <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -922,7 +893,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="236">
           <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -930,7 +900,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -938,7 +907,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -946,7 +914,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -961,35 +928,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/info/cukes/cucumber-core/1.2.4/cucumber-core-1.2.4.jar!/cucumber/runtime/Utils.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="52" column="0" lean-forward="false" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/thread/automation/pages/HomePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="21" column="54" lean-forward="true" selection-start-line="21" selection-start-column="54" selection-end-line="21" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/thread/automation/pages/Design/ChannelPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="4" lean-forward="false" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/features/LogOut.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="57" lean-forward="true" selection-start-line="13" selection-start-column="57" selection-end-line="13" selection-end-column="57" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -997,19 +939,97 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="26" lean-forward="false" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/info/cukes/cucumber-core/1.2.4/cucumber-core-1.2.4.jar!/cucumber/runtime/Timeout.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/info/cukes/cucumber-core/1.2.4/cucumber-core-1.2.4.jar!/cucumber/runtime/model/CucumberFeature.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="177" column="0" lean-forward="false" selection-start-line="177" selection-start-column="0" selection-end-line="177" selection-end-column="0" />
           <folding>
-            <marker date="1507975968174" expanded="true" signature="69:312" ph="Scenario: On clicking the Begin button, it should navigate to &quot;Who is the sponsor for this study?&quot; screen" />
-            <marker date="1507975968174" expanded="true" signature="316:652" ph="Scenario: &quot;Sponsor of the study&quot; Value should be selected from the DropDown box and click on Continue button" />
-            <marker date="1507975968174" expanded="true" signature="656:975" ph="Scenario: Studyname should be entered and Continue button should be clicked" />
-            <marker date="1507975968174" expanded="true" signature="979:1822" ph="Scenario: Click on either options available on &quot;Would you like a THREAD expert to guide you through this process?&quot; screen" />
-            <marker date="1507975968174" expanded="true" signature="1826:2177" ph="Scenario: Select a value from the dropdown in &quot;In which countries will this study be conducted?&quot; screen and click on Continue button." />
-            <marker date="1507975968174" expanded="true" signature="2181:2514" ph="Scenario: Enter the value inside textbox in &quot;What is the target participant population(s)?&quot; screen and click on Continue button" />
-            <marker date="1507975968174" expanded="true" signature="2518:2817" ph="Scenario: Select a value from the dropdown in &quot;What type of study is this?&quot; and click on Continue button" />
-            <marker date="1507975968174" expanded="true" signature="2821:3124" ph="Scenario: Enter a value in the text box available in &quot;What is the number of patients you expect to enroll?&quot; screen and click on Continue button" />
-            <marker date="1507975968174" expanded="true" signature="3128:3794" ph="Scenario: configure the valid date values in &quot;What are your key study dates?&quot; screen and click on Continue button" />
-            <marker date="1507975968174" expanded="true" signature="3798:4097" ph="Scenario: configuring respective values in &quot;Identify study milestones.&quot; screen and clicking on Continue button." />
-            <marker date="1507975968174" expanded="true" signature="4101:4468" ph="Scenario: Select all that apply in &quot;What channels do you need?&quot; screen and Click on Continue button" />
+            <element signature="e#6959#6960#0" expanded="true" />
+            <element signature="e#6990#6991#0" expanded="true" />
+            <element signature="e#7022#7023#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/info/cukes/cucumber-core/1.2.4/cucumber-core-1.2.4.jar!/cucumber/runtime/model/StepContainer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="56" column="0" lean-forward="false" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/info/cukes/cucumber-core/1.2.4/cucumber-core-1.2.4.jar!/cucumber/runtime/RuntimeGlue.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="88" column="0" lean-forward="false" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/info/cukes/cucumber-core/1.2.4/cucumber-core-1.2.4.jar!/cucumber/runtime/JdkPatternArgumentMatcher.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/info/cukes/cucumber-java/1.2.4/cucumber-java-1.2.4.jar!/cucumber/runtime/java/JavaStepDefinition.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+          <folding>
+            <element signature="e#1646#1647#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/info/cukes/cucumber-core/1.2.4/cucumber-core-1.2.4.jar!/cucumber/runtime/Utils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+          <folding>
+            <element signature="e#1334#2266#0" expanded="true" />
+            <element signature="e#2265#2266#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/info/cukes/gherkin/2.12.2/gherkin-2.12.2.jar!/gherkin/formatter/model/BasicStatement.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+          <folding>
+            <element signature="e#1288#1289#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/info/cukes/cucumber-core/1.2.4/cucumber-core-1.2.4.jar!/cucumber/runtime/StepDefinitionMatch.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="39">
+          <caret line="38" column="53" lean-forward="false" selection-start-line="38" selection-start-column="53" selection-end-line="38" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/info/cukes/cucumber-core/1.2.4/cucumber-core-1.2.4.jar!/cucumber/runtime/Runtime.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="298" column="0" lean-forward="false" selection-start-line="298" selection-start-column="0" selection-end-line="298" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1021,53 +1041,73 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/thread/automation/pages/LandingPage.java">
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/LogOut.feature1">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="37" column="16" lean-forward="false" selection-start-line="37" selection-start-column="16" selection-end-line="37" selection-end-column="16" />
+        <state relative-caret-position="221">
+          <caret line="13" column="41" lean-forward="false" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/thread/automation/pages/LoginPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="32" column="39" lean-forward="false" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="39" />
-          <folding>
-            <element signature="e#852#853#0" expanded="true" />
-            <element signature="e#899#900#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/features/Login.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="93" lean-forward="false" selection-start-line="6" selection-start-column="93" selection-end-line="6" selection-end-column="93" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/thread/automation/stepDefinitions/LoginFeature.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="32" column="8" lean-forward="false" selection-start-line="32" selection-start-column="8" selection-end-line="38" selection-end-column="9" />
-          <folding>
-            <element signature="e#488#489#0" expanded="true" />
-            <element signature="e#530#531#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/thread/automation/stepDefinitions/LogOutFeature.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
+        <state relative-caret-position="765">
           <caret line="47" column="5" lean-forward="true" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/Login.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="31" lean-forward="true" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/thread/automation/testRunner/TestRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/thread/automation/pages/HomePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="21" column="54" lean-forward="true" selection-start-line="21" selection-start-column="54" selection-end-line="21" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/thread/automation/pages/LandingPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#402#403#0" expanded="true" />
-            <element signature="e#444#445#0" expanded="true" />
+            <element signature="e#316#317#0" expanded="true" />
+            <element signature="e#367#368#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/thread/automation/pages/LoginPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="16" column="27" lean-forward="false" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+          <folding>
+            <element signature="e#319#320#0" expanded="true" />
+            <element signature="e#372#373#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/thread/automation/stepDefinitions/LoginFeature.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="833">
+          <caret line="59" column="45" lean-forward="true" selection-start-line="59" selection-start-column="45" selection-end-line="59" selection-end-column="45" />
+          <folding />
         </state>
       </provider>
     </entry>

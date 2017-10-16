@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Default_Suite">
-              <span class="suite-name border-failed">Default Suite</span>
+              <span class="suite-name border-passed">Default Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -91,26 +91,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods, 2 failed,   </span>
+                    <span class="method-stats">1 method,   1 passed</span>
                   </li>
                   <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-Default_Suite" class="hide-methods failed suite-Default_Suite"> (hide)</a> <!-- hide-methods failed suite-Default_Suite -->
-                      <a href="#" panel-name="suite-Default_Suite" class="show-methods failed suite-Default_Suite"> (show)</a> <!-- show-methods failed suite-Default_Suite -->
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Default_Suite" class="hide-methods passed suite-Default_Suite"> (hide)</a> <!-- hide-methods passed suite-Default_Suite -->
+                      <a href="#" panel-name="suite-Default_Suite" class="show-methods passed suite-Default_Suite"> (show)</a> <!-- show-methods passed suite-Default_Suite -->
                     </span>
-                    <div class="method-list-content failed suite-Default_Suite">
+                    <div class="method-list-content passed suite-Default_Suite">
                       <span>
-                        <img width="3%" src="failed.png"/>
+                        <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Default_Suite" title="com.thread.automation.testRunner.TestRunner" hash-for-method="feature(LoginFeature)">feature(LoginFeature)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                      <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_Suite" title="com.thread.automation.testRunner.TestRunner" hash-for-method="feature(LogOut Feature)">feature(LogOut Feature)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-Default_Suite -->
+                    </div> <!-- method-list-content passed suite-Default_Suite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -122,9 +117,9 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Default_Suite" class="panel Default_Suite">
-          <div class="suite-Default_Suite-class-failed">
+          <div class="suite-Default_Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
+              <img src="passed.png"/>
               <span class="class-name">com.thread.automation.testRunner.TestRunner</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -134,94 +129,12 @@
                   </a> <!-- feature(LoginFeature) -->
                   <span class="method-name">feature</span>
                   <span class="parameters">(LoginFeature)</span>
-                  <div class="stack-trace">cucumber.runtime.CucumberException: org.openqa.selenium.NoSuchElementException: Unable to locate element: //span[contains(text(), &quot;Welcome&quot;)]
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
-System info: host: &apos;DESKTOP-9LHQ8SA&apos;, ip: &apos;172.16.6.66&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{moz:profile=C:\Users\FISSIO~1\AppData\Local\Temp\rust_mozprofile.cRDQKwDCz8Vg, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=10.0, moz:processID=10228.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
-Session ID: 2879b699-1e91-42f9-8027-3e8a6e468c6d
-*** Element info: {Using=xpath, value=//span[contains(text(), &quot;Welcome&quot;)]}
-	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:69)
-	at cucumber.api.testng.AbstractTestNGCucumberTests.feature(AbstractTestNGCucumberTests.java:21)
-Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: //span[contains(text(), &quot;Welcome&quot;)]
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
-System info: host: &apos;DESKTOP-9LHQ8SA&apos;, ip: &apos;172.16.6.66&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{moz:profile=C:\Users\FISSIO~1\AppData\Local\Temp\rust_mozprofile.cRDQKwDCz8Vg, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=10.0, moz:processID=10228.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
-Session ID: 2879b699-1e91-42f9-8027-3e8a6e468c6d
-*** Element info: {Using=xpath, value=//span[contains(text(), &quot;Welcome&quot;)]}
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:509)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy19.getText(Unknown Source)
-	at com.thread.automation.pages.LandingPage.getlandingPageWelcome(LandingPage.java:35)
-	at com.thread.automation.stepDefinitions.LoginFeature.i_should_see_the_homepage(LoginFeature.java:51)
-	at ✽.Then I should see the homepage(features/Login.feature:9)
-... Removed 27 stack frames
-</div> <!-- stack-trace -->
-                  <em>
-(Runs Cucumber Feature)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="feature(LogOut Feature)">
-                  </a> <!-- feature(LogOut Feature) -->
-                  <span class="method-name">feature</span>
-                  <span class="parameters">(LogOut Feature)</span>
-                  <div class="stack-trace">cucumber.runtime.CucumberException: org.openqa.selenium.NoSuchElementException: Unable to locate element: //span[contains(text(), &quot;Welcome&quot;)]
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
-System info: host: &apos;DESKTOP-9LHQ8SA&apos;, ip: &apos;172.16.6.66&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{moz:profile=C:\Users\FISSIO~1\AppData\Local\Temp\rust_mozprofile.GVlQNxnGszOj, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=10.0, moz:processID=8696.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
-Session ID: 690483aa-82b3-46b0-b034-230ed0d4acbe
-*** Element info: {Using=xpath, value=//span[contains(text(), &quot;Welcome&quot;)]}
-	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:69)
-	at cucumber.api.testng.AbstractTestNGCucumberTests.feature(AbstractTestNGCucumberTests.java:21)
-Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: //span[contains(text(), &quot;Welcome&quot;)]
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
-System info: host: &apos;DESKTOP-9LHQ8SA&apos;, ip: &apos;172.16.6.66&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{moz:profile=C:\Users\FISSIO~1\AppData\Local\Temp\rust_mozprofile.GVlQNxnGszOj, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=10.0, moz:processID=8696.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
-Session ID: 690483aa-82b3-46b0-b034-230ed0d4acbe
-*** Element info: {Using=xpath, value=//span[contains(text(), &quot;Welcome&quot;)]}
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:509)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy19.click(Unknown Source)
-	at com.thread.automation.pages.LandingPage.logOutFromThreadPortal(LandingPage.java:40)
-	at com.thread.automation.stepDefinitions.LogOutFeature.select_Logout_from_Welcome_dropDown_which_is_available_on_the_top_left_corner_of_the_screen(LogOutFeature.java:46)
-	at ✽.Then Select Logout from Welcome dropDown which is available on the top left corner of the screen(features/LogOut.feature:13)
-... Removed 27 stack frames
-</div> <!-- stack-trace -->
                   <em>
 (Runs Cucumber Feature)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Default_Suite-class-failed -->
+          </div> <!-- suite-Default_Suite-class-passed -->
         </div> <!-- panel Default_Suite -->
         <div panel-name="test-xml-Default_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -282,20 +195,16 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'feature')
 data.setCell(0, 2, 'com.thread.automation.testRunner.TestRunner')
-data.setCell(0, 3, 22518);
-data.setCell(1, 0, 1)
-data.setCell(1, 1, 'feature')
-data.setCell(1, 2, 'com.thread.automation.testRunner.TestRunner')
-data.setCell(1, 3, 11998);
+data.setCell(0, 3, 26098);
 window.suiteTableData['Default_Suite']= { tableData: data, tableDiv: 'times-div-Default_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 34 seconds</span>
+              <span class="suite-total-time">Total running time: 26 seconds</span>
               <div id="times-div-Default_Suite">
               </div> <!-- times-div-Default_Suite -->
             </div> <!-- times-div -->
@@ -327,20 +236,12 @@ return data;
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">feature(LogOut Feature)</span>
-                <span class="method-start">919 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">feature(LoginFeature)</span>
-                <span class="method-start">12932 ms</span>
+                <span class="method-start">547 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDownClass</span>
-                <span class="method-start">35481 ms</span>
+                <span class="method-start">26645 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

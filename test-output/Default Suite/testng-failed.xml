@@ -6,15 +6,4 @@
       <class name="com.thread.automation.testRunner.TestRunner"/>
     </classes>
   </test> <!-- thread_automation1 -->
-  <test name="thread_automation1(failed)">
-    <classes>
-      <class name="com.thread.automation.testRunner.TestRunner">
-        <methods>
-          <include name="setUpClass"/>
-          <include name="feature" invocation-numbers="0 1"/>
-          <include name="tearDownClass"/>
-        </methods>
-      </class> <!-- com.thread.automation.testRunner.TestRunner -->
-    </classes>
-  </test> <!-- thread_automation1(failed) -->
 </suite> <!-- Failed suite [Default Suite] -->
